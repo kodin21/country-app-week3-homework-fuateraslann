@@ -70,7 +70,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.languageTable td{
+  border: 1px solid black;;
+  margin: 5px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791323e1-0329-4a6a-9170-5d0c52222792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CountryCarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountryCarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GetData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/datas/GetData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +42,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Datas" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fuate\WebstormProjects\country-app-week3-homework-fuateraslann\src\Datas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fuate\WebstormProjects\country-app-week3-homework-fuateraslann\src" />
       <recent name="C:\Users\fuate\WebstormProjects\country-app-week3-homework-fuateraslann" />
@@ -63,7 +65,8 @@
       <updated>1626961188751</updated>
       <workItem from="1626961190409" duration="9453000" />
       <workItem from="1627337828440" duration="1226000" />
-      <workItem from="1627339202415" duration="4461000" />
+      <workItem from="1627339202415" duration="6933000" />
+      <workItem from="1627397722032" duration="2149000" />
     </task>
     <servers />
   </component>
