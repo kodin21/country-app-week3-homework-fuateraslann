@@ -5,7 +5,6 @@
   width: auto;
   height: 100px;
 }
-
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
@@ -40,7 +39,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.countryCarts {
+  float: left;
+  padding: 20px;
+}
+.countryImg{
+  width: 100px;
+  height: 100px;
+}
+.countryInfo{
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -4,21 +4,15 @@ import CountryCarts from "./components/CountryCarts";
 import Statistics from "./components/Statistics";
 export default function App() {
 
-    const [selectedButton , setSelectedButton] = useState(0);
+    const [selectedButton , setSelectedButton] = useState("CountryCarts");
     useEffect(()=>{
 
     },[selectedButton])
     function changeButtonToStatistics(){
-        setSelectedButton(1);
+        setSelectedButton("Statistics");
     }
     function changeButtonToCountry(){
-        setSelectedButton(0);
-    }
-    function getCountries(){
-        return <div>a</div>
-    }
-    function getStatistics(){
-        return <div>sad</div>
+        setSelectedButton("CountryCarts");
     }
   return (
     <div >
@@ -30,7 +24,7 @@ export default function App() {
       </header>
         <div>
             {(()=>{
-               return selectedButton ? <Statistics/> : <CountryCarts/>
+               return selectedButton === "Statistics" ? <Statistics/> : <CountryCarts/>
             })() }
         </div>
     </div>
