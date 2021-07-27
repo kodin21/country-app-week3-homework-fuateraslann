@@ -14,8 +14,8 @@ export default function CountryCarts(){
                     <div>
                         <h3>{country.name}</h3>
                         Capital : <span>{country.capital}</span> <br></br>
-                        Language : <table className="languageTable">{country.languages.map(language=>{
-                        return <td>{language.name} </td>
+                        Language : <table className="language">{country.languages.map(language=>{
+                        return <td key = {language.name}>{language.name} </td>
                         }
                     )}</table>
                     </div>
